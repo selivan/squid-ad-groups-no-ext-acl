@@ -1,0 +1,2 @@
+KRB5_KTNAME=/etc/squid3/HTTP_proxy.keytab
+export KRB5_KTNAME
