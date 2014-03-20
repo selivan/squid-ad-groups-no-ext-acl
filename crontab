@@ -1,1 +1,1 @@
-* *   * * * root test -x /etc/squid3/update-squid-group-info.sh || /etc/squid3/update-squid-group-info.sh
+* * * * * root /etc/squid3/update-squid-group-info.sh >> /var/log/squid3/update-squid-group-info.log 2>&1
