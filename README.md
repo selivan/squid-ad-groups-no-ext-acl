@@ -5,4 +5,4 @@ Squid proxy config for using AD groups without external ldap acls, which are sho
 
 Samba is used, server should be member of AD domain, wbinfo -t should work.
 
-Script periodicaly queries users for selected groups and updates files. If group did not change, file remains unchanged. If one of groups has changed, squid service is reloaded.
+Script periodicaly queries user list for selected groups and updates files. If group did not change, corresponding file remains unchanged. If one of groups has changed, file is updated and squid service is reloaded.
