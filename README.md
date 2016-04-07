@@ -6,3 +6,5 @@ Squid proxy config for using AD groups without external ldap acls, which are sho
 Samba is used, server should be member of AD domain, wbinfo -t should work.
 
 Script periodicaly queries user list for selected groups and updates files. If group did not change, corresponding file remains unchanged. If one of groups has changed, file is updated and squid service is reloaded.
+
+**P.S.** If this code is useful for you - don't forget to put a star on it's [github repo](https://github.com/selivan/squid-ad-groups-no-ext-acl).
